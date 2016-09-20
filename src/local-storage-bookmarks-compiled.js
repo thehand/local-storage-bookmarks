@@ -84,7 +84,8 @@ var LocalStorageBookmarks = function () {
     key: "getList",
     value: function getList() {
       var currentBookmarks = this.currentStorage.getItem('local-storage-bookmarks');
-      return currentBookmarks.split(",");
+      if (typeof currentBookmarks === 'string') return currentBookmarks.split(",");
+      return null;
     }
 
     /**
