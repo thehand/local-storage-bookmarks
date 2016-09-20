@@ -1,0 +1,23 @@
+{
+  "name": "local-storage-bookmarks",
+  "version": "1.0.0",
+  "description": "Implements an interface object to the local storage, easy to manipulate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "localstorage",
+    "javacript",
+    "ecma6",
+    "bookmarks",
+    "web"
+  ],
+  "author": "Francesco Salamone <francesco.salamone@ssd.it>",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "uglifyjs": "^2.4.10"
+  }
+}
